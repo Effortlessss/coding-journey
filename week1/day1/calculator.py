@@ -1,0 +1,15 @@
+print("=== CALCULATOR ===")
+print()
+client = input("Client name: ")
+hours = input("Hours Worked: ")
+rate = input("Rate per hour: $")
+hours_numbers = float(hours)
+rate_numbers = float(rate)
+total  = hours_numbers * rate_numbers
+print()
+print("=== RESULT ===")
+print(f"Client: {client}")
+print(f"Hours: {hours_numbers}")
+print(f"Rate: ${rate_numbers}/hour")
+print(f"Total: ${total}")
+
